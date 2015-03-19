@@ -108,7 +108,7 @@ hostnet_entity_tracker:
 ```
 
 ##### Configuring the Blamable Component
-The Blamable Component has 1 required option, the provider. The provider is [the class that implements the BlamableProviderInterface as explained in the documation](https://github.com/hostnet/entity-blamable-component/#creating-a-provider-for-the-username-and-timestamp). The argument passed to that option is the name of the service you are using for it.
+The Blamable Component has 1 required option, the provider. The provider is [the class that implements the BlamableProviderInterface as explained in the documentation](https://github.com/hostnet/entity-blamable-component/#creating-a-provider-for-the-username-and-timestamp). The argument passed to that option is the name of the service you are using for it.
 
 > Note: The following example is based on the AcmeBlamableProvider from the link above
 
